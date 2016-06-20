@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        div.contacts button.large {
+        }
+
+        p a {
+        }
+
+        #header {
+        }
+
+        .bold {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="bold">Hello CSS</p>
+    <span class="bold" id="span1"></span>
+    <span></span>
+
+    <button>Click me</button>
+
+    <script src="jquery.js"></script>
+    <script>
+        //var span = $("span");
+        //var span = $(".span");
+        var span = $("#span1");
+
+        var counter = 0;
+
+        var button = $("button");
+        button.on("click", function() {
+            //console.log("Click");
+            ++counter;
+
+            span.html(counter);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="blabla">Click me</button>
+    <script src="system.src.js"></script>
+    <script>
+        System.config({
+            defaultJSExtensions: true,
+        });
+        System.import("main");
+    </script>
+    <script>
+        var button = document.getElementById("blabla");
+
+        button.addEventListener("click", function() {
+            button.innerHTML = "CCC";
+        });
+    </script>
+</body>
+</html>

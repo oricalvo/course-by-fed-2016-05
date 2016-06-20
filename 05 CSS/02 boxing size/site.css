@@ -1,0 +1,17 @@
+* {
+}
+
+.parent {
+    background-color: red;
+    width: 10em;
+    height: 10em;
+}
+
+.child {
+    background-color: blue;
+    width: 9em;
+    height: 9em;
+    color: white;
+    padding: 0.5em;
+}
+
