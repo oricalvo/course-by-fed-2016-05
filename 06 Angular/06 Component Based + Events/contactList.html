@@ -1,0 +1,10 @@
+<div>
+    <ul>
+        <li ng-repeat="contact in $ctrl.contacts">
+            <contact-details
+                    contact="contact"
+                    on-remove="$ctrl.onContactRemove(contact, $index)">
+            </contact-details>
+        </li>
+    </ul>
+</div>
