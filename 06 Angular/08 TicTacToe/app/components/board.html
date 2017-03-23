@@ -1,0 +1,7 @@
+<div>
+    <div class="row" ng-repeat="row in $ctrl.rows">
+        <cell ng-repeat="cell in row.cells"
+              cell="cell"
+              on-click="$ctrl.onCellClicked(cell)"></cell>
+    </div>
+</div>

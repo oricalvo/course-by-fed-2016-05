@@ -1,0 +1,12 @@
+home {
+}
+
+home .game {
+    display: inline-block;
+    text-align: center;
+}
+
+home .buttons {
+    margin-top: 1em;
+}
+

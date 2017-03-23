@@ -1,0 +1,13 @@
+<h1>Home</h1>
+
+<clock #clock1
+        format="$ctrl.format1"
+        on-tick="$ctrl.onClock1Tick(time)">
+</clock>
+<button ng-click="$ctrl.change()">Change</button>
+<button ng-click="$ctrl.stopClock()">Stop</button>
+
+<br/>
+
+<clock #clock2 format="'HH:ss'"></clock>
+
